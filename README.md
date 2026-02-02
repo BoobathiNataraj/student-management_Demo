@@ -93,16 +93,13 @@ A full-stack **Student Management System** built using **Spring Boot** with both
 6. Test APIs using Postman
 
 ##  Project Structure
-
 student-management_Demo/
 │
 ├── screenshots/
-│   ├── api/
-│   └── web/
-│
 ├── src/
 ├── README.md
 └── pom.xml
+
 
 
 ## Developer
