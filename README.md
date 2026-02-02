@@ -12,32 +12,44 @@ A full-stack **Student Management System** built using **Spring Boot** with both
 * Clean layered architecture
 * Recruiter-friendly documentation
 * 
-##  Web Endpoints
-Login Page
-http://localhost:8080/student/
+### Web Endpoints
 
-Add Student
-http://localhost:8080/student/addStudent
+- Login Page  
+  http://localhost:8080/student/
 
-Save Student
-http://localhost:8080/student/saveStudent
+- Add Student  
+  http://localhost:8080/student/addStudent
 
-Update Student (by ID)
-http://localhost:8080/student/update/{id}
+- Save Student  
+  http://localhost:8080/student/saveStudent
 
-Update Student
-http://localhost:8080/student/update
+- Update Student (by ID)  
+  http://localhost:8080/student/update/{
 
-Delete Student
-http://localhost:8080/student/delete/{id}
+- Update Student  
+  http://localhost:8080/student/update
+
+- Delete Student  
+  http://localhost:8080/student/delete/{id}
+
 
 ##  API Endpoints (REST API)
 
 
-POST   http://localhost:8080/api/students
-GET    http://localhost:8080/api/students
-PUT    http://localhost:8080/api/students/1
-DELETE http://localhost:8080/api/students/1
+### REST API Endpoints
+
+- POST  
+  http://localhost:8080/api/students
+
+- GET  
+  http://localhost:8080/api/students
+
+- PUT  
+  http://localhost:8080/api/students/{id}
+
+- DELETE  
+  http://localhost:8080/api/students/{id}
+
 
 ##  Web Application Screenshots
 
@@ -96,11 +108,10 @@ student-management_Demo/
 ## Developer
 **Boobathi Kumar N**
 Java Backend Developer
-📍 Coimbatore, Tamil Nadu, India
 
----
 
-## ⭐ Recruiter Note
+
+##  Recruiter Note
 
 This project demonstrates:
 
@@ -110,6 +121,6 @@ This project demonstrates:
 * Clean code structure
 * Real-world project architecture
 
----
 
-> 🔗 GitHub Repository Link: Add this repo link in your resume
+
+
