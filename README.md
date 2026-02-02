@@ -52,12 +52,12 @@ DELETE http://localhost:8080/api/students/1
 
 ##  API Screenshots
 
-```md
+
 ![POST API](screenshots/api/add-student.png)
 ![GET API](screenshots/api/get-students.png)
 ![PUT API](screenshots/api/update-student.png)
 ![DELETE API](screenshots/api/delete-student.png)
-```
+
 ## Tech Stack
 
 * Java
