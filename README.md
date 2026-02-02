@@ -96,6 +96,10 @@ spring.jpa.show-sql=true
 
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 
+## Database Schema
+
+MySQL table structure is available here:  
+ `db/student_schema.sql`
 
 
 ## How to Run the Project
