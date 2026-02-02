@@ -99,9 +99,11 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 ## Database Schema
 
 Tables are auto-generated using JPA Entities with:
+
 spring.jpa.hibernate.ddl-auto=update
 
 For manual setup and reference, the SQL schema file is available:
+
  db/student_schema.sql
 
 
