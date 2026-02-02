@@ -91,7 +91,9 @@ spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
+
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 
 
