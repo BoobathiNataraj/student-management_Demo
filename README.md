@@ -107,7 +107,7 @@ student-management_Demo/
 
 ## Developer
 **Boobathi Kumar N**
-Java Backend Developer
+- Java Backend Developer
 
 
 
