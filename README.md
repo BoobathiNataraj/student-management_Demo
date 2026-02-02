@@ -56,7 +56,7 @@ DELETE http://localhost:8080/api/students/1
 ![POST API](screenshots/api/add-student.png)
 ![GET API](screenshots/api/get-students.png)
 ![PUT API](screenshots/api/update-student.png)
-![DELETE API](screenshots/api/api4.png)
+![DELETE API](screenshots/api/delete-student.png)
 ```
 ## Tech Stack
 
