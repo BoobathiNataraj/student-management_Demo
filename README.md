@@ -41,13 +41,14 @@ DELETE http://localhost:8080/api/students/1
 
 ##  Web Application Screenshots
 
-```md
-![Login Page](screenshots/web/login.png)
-![Add Student Page](screenshots/web/addStudent.png)
-![Student List Page](screenshots/web/studentList.png)
-```
+![Login Page](screenshots/web/index.png)
+![Add Student Page](screenshots/web/add-student.png)
+![Delete Student Page](screenshots/web/delete-student.png)
+![Student List Page](screenshots/web/list-student.png)
+![Update Student Page](screenshots/web/update-student.png)
 
----
+
+
 
 ##  API Screenshots
 
