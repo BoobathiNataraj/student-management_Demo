@@ -36,7 +36,7 @@ A full-stack **Student Management System** built using **Spring Boot** with both
   http://localhost:8080/student/saveStudent
 
 - Update Student (by ID)  
-  http://localhost:8080/student/update/{
+  http://localhost:8080/student/update/{id}
 
 - Update Student  
   http://localhost:8080/student/update
