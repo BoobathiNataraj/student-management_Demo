@@ -84,12 +84,12 @@ This project uses **MySQL** as the database.
 
 Configure your database in `application.properties`:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/student_db
-spring.datasource.username=YOUR_USERNAME
-spring.datasource.password=YOUR_PASSWORD
+-spring.datasource.url=jdbc:mysql://localhost:3306/student_db
+-spring.datasource.username=YOUR_USERNAME
+-spring.datasource.password=YOUR_PASSWORD
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+-spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.show-sql=true
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 
 
