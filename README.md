@@ -11,7 +11,19 @@ A full-stack **Student Management System** built using **Spring Boot** with both
 * REST APIs for CRUD operations
 * Clean layered architecture
 * Recruiter-friendly documentation
-* 
+
+ ## Tech Stack
+
+* Java
+* Spring Boot
+* Spring MVC
+* Spring Data JPA
+* Hibernate
+* MySQL
+* RESTful APIs
+* HTML/CSS (Web Layer)
+* Jsp
+  
 ### Web Endpoints
 
 - Login Page  
@@ -31,10 +43,6 @@ A full-stack **Student Management System** built using **Spring Boot** with both
 
 - Delete Student  
   http://localhost:8080/student/delete/{id}
-
-
-##  API Endpoints (REST API)
-
 
 ### REST API Endpoints
 
@@ -70,17 +78,21 @@ A full-stack **Student Management System** built using **Spring Boot** with both
 ![PUT API](screenshots/api/update-student.png)
 ![DELETE API](screenshots/api/delete-student.png)
 
-## Tech Stack
+## Database Configuration (MySQL)
 
-* Java
-* Spring Boot
-* Spring MVC
-* Spring Data JPA
-* Hibernate
-* MySQL
-* RESTful APIs
-* HTML/CSS (Web Layer)
-* Thymeleaf
+This project uses **MySQL** as the database.
+
+Configure your database in `application.properties`:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/student_db
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
+
 
 ## How to Run the Project
 
